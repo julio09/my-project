@@ -27,10 +27,12 @@ function footer() {
   return (
     <>
     <section className='flex justify-center relative items-center h-full mt-[90px]'>
-    <hr className='border-[1px] w-[1440px] flex border-stroke shrink-0' />
-    <div className='shrink-0 border-t-[2px]  absolute z-20 border-stroke bg-white w-[298px] h-[100px] rounded-[36px] '></div>
-    <motion.button variants={button} initial="hidden" whileTap="tap" animate="show" whileHover="hover" className='absolute z-30 px-[88px] py-[18px] rounded-radius font-bold font-sans text-normal bg-primary text-white '>Try to free</motion.button>
-    <motion.img initial={{translateY: 100, opacity:0}} animate={{translateY: 0, opacity: 1}} transition={{type: "spring", duration:.7,delay: 0.2,bounce:.4,}} src={Frame} alt='' className='absolute -bottom-[420px]' />
+    <svg xmlns="http://www.w3.org/2000/svg" className='z-50' width="1400" height="50" viewBox="0 0 1400 50" fill="none">
+      <path d="M1400 49H855.405C851.985 49 849.212 45.4183 849.212 41C849.212 13.3858 831.883 1 810.506 1H589.107C567.73 1 550.401 13.3858 550.401 41C550.401 45.4183 547.628 49 544.208 49H0" stroke="#D4D4D4"/>
+    </svg>
+    <div className='shrink-0 absolute -bottom-12 z-30  bg-white w-[298px] h-[100px] rounded-[36px] '></div>
+    <motion.button variants={button} initial="hidden" whileTap="tap" animate="show" whileHover="hover" className='absolute -bottom-8 z-30 px-[88px] py-[18px] rounded-radius font-bold font-sans text-normal bg-primary text-white '>Try to free</motion.button>
+    <motion.img initial={{translateY: 100, opacity:0}} animate={{translateY: 0, opacity: 1}} transition={{type: "spring", duration:.7,delay: 0.2,bounce:.4,}} src={Frame} alt='' className='absolute z-0 -bottom-[410px]' />
     <div className='flex flex-col absolute -bottom-[200px] left-56 items-start gap-[14px] '>
         <p className='font-sans font-bold text-[34px] text-primary'>Modern data stock</p>
         <p className='text-normal font-sans text-primary'>The investment you’ve made in every<br />
