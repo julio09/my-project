@@ -33,7 +33,7 @@ function header() {
         y: 0,
         transition: {
           duration:0.8,
-          ease: "easeIn",
+          ease: [0, 0.55, 0.45, 1],
           staggerDirection: -1,
           delayChildren: 0.9
         }

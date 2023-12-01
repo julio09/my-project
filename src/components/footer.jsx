@@ -53,8 +53,8 @@ function footer() {
         <p className='text-normal'>Connect
         <br />More Experts</p>
     </div>
-    <div className='absolute -bottom-[410px] flex right-[225px] gap-12 items-end'>
-        <div className='flex flex-col gap-2 items-end'>
+    <div className='absolute -bottom-[410px] flex right-[225px] gap-12 items-center'>
+        <div className='flex flex-col gap-2 items-start'>
         <span className='font-bold text-large'>120+</span>
         <p className='text-normal'>Perform complex,<br />
         ad hac analysis<br />

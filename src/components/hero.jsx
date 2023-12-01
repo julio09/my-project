@@ -15,8 +15,8 @@ function hero() {
     Around
     <br />
     nalytical Work</div>
-    <motion.img initial={{translateX: -1000, opacity: 0}} animate={{translateX: 0, opacity:1}} transition={{duration:0.6, delay: .3, ease: "linear", type:"spring" ,stiffness: 50 }} alt='' className='absolute left-[400px] top-52' width={246} height={76} src={Sary} />
-    <motion.div initial={{translateX: 1000, opacity: 0}} animate={{translateX: 0, opacity:1}} transition={{duration:0.6, delay: .3, ease: "linear", type:"spring" ,stiffness: 50 }} className='absolute  right-[400px] top-52 rounded-radius bg-slate pl-[13px] pr-[31px] pt-[1px] flex items-center gap-[13px] '>
+    <motion.img initial={{translateX: -1000, opacity: 0}} animate={{translateX: 0, opacity:1}} transition={{duration:0.6, delay: .3, ease: [0.45, 0, 0.55, 1], type:"spring" ,stiffness: 50 }} alt='' className='absolute left-[400px] top-52' width={246} height={76} src={Sary} />
+    <motion.div initial={{translateX: 1000, opacity: 0}} animate={{translateX: 0, opacity:1}} transition={{duration:0.6, delay: .3, ease: [0.45, 0, 0.55, 1], type:"spring" ,stiffness: 50 }} className='absolute  right-[400px] top-52 rounded-radius bg-slate pl-[13px] pr-[31px] pt-[1px] flex items-center gap-[13px] '>
         <img alt='' width={75} height={75} src={Fleur} />
         <p className='font-normal text-start text-normal font-sans'>Behind every<br /> great idea</p>
     </motion.div>
