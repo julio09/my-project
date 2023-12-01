@@ -59,7 +59,7 @@ function header() {
   }
   return (
     <>
-    <motion.div variants={ListContainer} initial="hidden" animate="show" className='flex justify-between items-center py-10 px-56'>
+    <motion.div variants={ListContainer} initial="hidden" animate="show" className='flex justify-between items-center py-6 px-56'>
         <motion.span className='font-sans font-bold text-medium'>MONAX</motion.span>
         <ul className='flex items-center gap-[48px] '>
             <motion.li variants={ListItem} initial="hidden" animate="show" whileHover="hover" whileTap="tap" className='cursor-pointer flex gap-2 items-center font-sans text-normal'>Products <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
