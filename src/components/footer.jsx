@@ -1,6 +1,6 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 import { Avatar1, Avatar2, Avatar3, Bottom, Circle, Frame } from '../assets'
-import {motion} from 'framer-motion'
 
 function footer() {
     const button = {
@@ -55,7 +55,7 @@ function footer() {
     </div>
     <div className='absolute -bottom-[410px] flex right-[225px] gap-12 items-center'>
         <div className='flex flex-col gap-2 items-start'>
-        <span className='font-bold text-large'>120+</span>
+        <span className='font-bold text-large leading-[64px]'>120+</span>
         <p className='text-normal'>Perform complex,<br />
         ad hac analysis<br />
         and empower.</p>
